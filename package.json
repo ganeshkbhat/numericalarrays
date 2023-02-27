@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "extenders": "^0.0.2",
-    "mod-pickle": "^0.0.2"
+    "mod-pickle": "^0.0.3"
   },
   "keywords": ["numpy", "numerical arrays", "numjs", "numpy implementation", "python", "javascript", "numerical arrays js", "ndarrays"]
 }
