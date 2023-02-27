@@ -1,0 +1,3 @@
+[submodule "pickler"]
+	path = pickler
+	url = https://github.com/ganeshkbhat/pickler

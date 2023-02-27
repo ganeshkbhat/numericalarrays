@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ganeshkbhat/pickler.git"
+    "url": "git+https://github.com/ganeshkbhat/numericalarrays.git"
   },
   "author": "Ganesh B",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ganeshkbhat/pickler/issues"
+    "url": "https://github.com/ganeshkbhat/numericalarrays/issues"
   },
-  "homepage": "https://github.com/ganeshkbhat/pickler#readme",
+  "homepage": "https://github.com/ganeshkbhat/numericalarrays#readme",
   "devDependencies": {
     "@types/node": "^18.11.3",
     "chai": "^4.3.6",

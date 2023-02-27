@@ -4,6 +4,6 @@ ndarrays offers numerical arrays which is a comprehensive mathematical functions
 
 ### INDEVELOPMENT - DO NOT INSTALL
 
-The version 0.0.2 will start having the actual usable ndarrays which is a numpy like module
+The version 0.0.2 will start having the actual usable ndarrays which is a python numpy like module
 
 
