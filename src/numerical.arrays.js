@@ -50,6 +50,118 @@ function NumericalArray() {
 }
 
 
+
+// Array Getters
+// a[-1] > a.get(-1), a[0:10] > a.get(0, 10), a[0:] > a.get(0, undefined|null), 
+// a[-1] > a.get("-1"), a[0:10] > a.get("0:10"), a[0:] > a.get("0:"), 
+
+// a[:10] > a.get(undefined|null, 10), a[:] > a.get(undefined|null, undefined|null)
+// a[:10] > a.get(":10"), a[:] > a.get(":")
+function get(start, end) { }
+
+// Array Setters
+// a[-1] > a.set(value, -1), a[0:10] > a.set(value, 0, 10), a[0:] > a.set(value, 0, undefined|null), 
+// a[-1] > a.set(value, "-1"), a[0:10] > a.set(value, "0:10"), a[0:] > a.set(value, "0:"), 
+
+// a[:10] > a.set(value, undefined|null, 10), a[:] > a.set(value, undefined|null, undefined|null)
+// a[:10] > a.set(value, ":10"), a[:] > a.set(value, ":")
+function set(value, start, end) { }
+function shape() { }
+function dtype() { }
+function ndim() { }
+function size() { }
+function flat() { }
+function id() { }
+
+// c.base is a # c is a view of the data owned by a
+function base() { }
+// c.flags.owndata
+function flags() { }
+
+
+function arange() { }
+function array() { }
+function copy() { }
+function empty() { }
+function empty_like() { }
+function eye() { }
+function fromfile() { }
+function fromfunction() { }
+function identity() { }
+function linspace() { }
+function logspace() { }
+function mgrid() { }
+function ogrid() { }
+function ones() { }
+function ones_like() { }
+function r_() { }
+function zeros() { }
+function zeros_like() { }
+
+function ndarray_astype() { }
+function atleast_1d() { }
+function atleast_2d() { }
+function atleast_3d() { }
+function mat() { }
+
+function array_split() { }
+function column_stack() { }
+function concatenate() { }
+function diagonal() { }
+function dsplit() { }
+function vsplit() { }
+function hsplit() { }
+function ndarray_item() { }
+function newaxis() { }
+function ravel() { }
+function repeat() { }
+function reshape() { }
+function resize() { }
+function squeeze() { }
+function swapaxes() { }
+function take() { }
+function transpose() { }
+function dstack() { }
+function hstack() { }
+function vstack() { }
+
+function all() { }
+function any() { }
+function nonzero() { }
+function where() { }
+
+function argmax() { }
+function argmin() { }
+function argsort() { }
+function max() { }
+function min() { }
+function ptp() { }
+function searchsorted() { }
+function sort() { }
+
+function choose() { }
+function compress() { }
+function cumprod() { }
+function cumsum() { } function inner() { }
+function ndarray_fill() { }
+function imag() { }
+function prod() { }
+function put() { }
+function putmask() { }
+function real() { }
+function sum() { }
+
+function cov() { }
+function mean() { }
+function std() { }
+function vars() { }
+function cross() { }
+function dot() { }
+function outer() { }
+function linalg_svd() { }
+function vdot() { }
+
+
 /**
 
 Array Creation: arange, array, copy, empty, empty_like, eye, fromfile, fromfunction, identity, 
