@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec --recursive  --timeout 60000",
+    "preinstall": "npm install -g node-gyp",
+    "postinstall": "",
+    "test": "mocha --reporter spec --recursive --timeout 60000",
     "testconfig": "mocha --reporter spec --recursive --config ./mocha.test.config.js --experimental-loader=./loader.mjs --timeout 60000"
   },
   "exports": {
@@ -30,6 +32,7 @@
     "hpp": "^0.2.3",
     "loadtest": "^5.2.0",
     "mocha": "^10.0.0",
+    "node-gyp": "^9.3.1",
     "nsp": "^2.8.1",
     "nsp-api": "^1.0.3",
     "safe-regex": "^2.1.1",
@@ -40,5 +43,14 @@
     "extenders": "^0.0.2",
     "mod-pickle": "^0.0.3"
   },
-  "keywords": ["numpy", "numerical arrays", "numjs", "numpy implementation", "python", "javascript", "numerical arrays js", "ndarrays"]
+  "keywords": [
+    "numpy",
+    "numerical arrays",
+    "numjs",
+    "numpy implementation",
+    "python",
+    "javascript",
+    "numerical arrays js",
+    "ndarrays"
+  ]
 }
