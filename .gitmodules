@@ -4,3 +4,6 @@
 [submodule "jsextenders"]
 	path = jsextenders
 	url = https://github.com/ganeshkbhat/jsextenders.git
+[submodule "jsextenders-stats-plugin"]
+	path = jsextenders-stats-plugin
+	url = https://github.com/ganeshkbhat/jsextenders-stats-plugin.git
