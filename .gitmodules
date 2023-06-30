@@ -1,3 +1,6 @@
 [submodule "pickler"]
 	path = pickler
 	url = https://github.com/ganeshkbhat/pickler
+[submodule "jsextenders"]
+	path = jsextenders
+	url = https://github.com/ganeshkbhat/jsextenders.git
