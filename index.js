@@ -17,7 +17,6 @@
 'use strict';
 
 
-
 module.exports = {
     rlib: require("lib-r-math.js"),
     sigma: require(""),
