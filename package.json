@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "extenders": "^0.0.2",
-    "mod-pickle": "^0.0.3"
+    "mod-pickle": "^0.0.3",
+    "pyodide": "^0.23.3"
   },
   "keywords": [
     "numpy",
