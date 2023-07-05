@@ -12,6 +12,20 @@ The version 0.0.2 will start having the actual usable ndarrays which is a python
 - streamStats:
 - pyc:
 
+Usage:
+
+```
+async function main() {
+  let pyodide = await loadPyodide();
+  // Pyodide is now ready to use...
+  console.log(pyodide.runPython(`
+    import sys
+    sys.version
+  `));
+};
+main();
+```
+
 Following Packages have been used. A comprehensive package documentation will be done for the package.
 
 - `atoll`: `^0.7.4`,
