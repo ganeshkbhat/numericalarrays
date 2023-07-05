@@ -16,3 +16,6 @@
 
 'use strict';
 
+import { default as ndarray } from "./index.js";
+
+export default ndarray;

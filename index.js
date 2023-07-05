@@ -16,13 +16,17 @@
 
 'use strict';
 
-
-module.exports = {
+const ndarray = {
     rlib: require("lib-r-math.js"),
-    sigma: require(""),
-    regression: require(""),
+    // sigma: require(""),
+    regression: require("d3-regression"),
     pickle: require("mod-pickle"),
     extenders: require("extenders"),
     stats: require("simple-statistics"),
-    streamStats: require("stream-statistics")
+    streamStats: require("stream-statistics"),
+    pyc: require("pyodide")
 }
+
+module.exports = ndarray;
+module.exports.default = ndarray;
+

@@ -2,7 +2,10 @@
 
 - Integrations:
 - [T] Add vega-statistics: https://github.com/vega/vega/tree/main
-- [T] Piodide https://pyodide.org/en/stable/usage/downloading-and-deploying.html#downloading-deploying
+- [T] Piodide 
+    - https://pyodide.org/en/stable/usage/downloading-and-deploying.html#downloading-deploying
+    - https://micropip.pyodide.org/en/stable/index.html
+    - https://pyodide.org/en/stable/usage/index.html
 - [T] R lang
 - [T] Simple Statistics
 - [T] Six Sigma Functions
