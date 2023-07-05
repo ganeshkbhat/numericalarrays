@@ -2,7 +2,15 @@
 
 `ndarrays` offers `numerical arrays` which is a comprehensive mathematical functions, `random number generators`, `linear algebra routines`, `Fourier transforms`, and more like `NumPy`, `Scipy`, `Scikit-learn`, `Statistics`, `Six Sigma` Functions, `D3` Graphs for scientific graphs. The goal was to be as near as NumPy as possible, however, a combination of a few packages were being done to make this a comprehensive port for major Python Scientific packages.
 
-The version 0.0.2 will start having the actual usable ndarrays which is a python numpy like module
+The version 0.0.2 will start having the actual usable ndarrays which is a python numpy like module.
+
+- rlib:
+- regression:
+- pickle:
+- extenders:
+- stats:
+- streamStats:
+- pyc:
 
 Following Packages have been used. A comprehensive package documentation will be done for the package.
 
