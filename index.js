@@ -23,7 +23,7 @@ const ndarray = {
     pickle: require("mod-pickle"),
     extenders: require("extenders"),
     stats: require("simple-statistics"),
-    streamStats: require("stream-statistics"),
+    stream: require("stream-statistics"),
     pyc: require("pyodide")
 }
 
