@@ -17,3 +17,11 @@
 'use strict';
 
 
+
+module.exports = {
+    rlib: require("lib-r-math.js"),
+    sigma: require(""),
+    regression: require(""),
+    pickle: require("mod-pickle"),
+    extenders: require("extenders")
+}
