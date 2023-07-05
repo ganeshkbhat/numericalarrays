@@ -23,5 +23,7 @@ module.exports = {
     sigma: require(""),
     regression: require(""),
     pickle: require("mod-pickle"),
-    extenders: require("extenders")
+    extenders: require("extenders"),
+    stats: require("simple-statistics"),
+    streamStats: require("stream-statistics")
 }
