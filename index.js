@@ -24,7 +24,8 @@ const ndarray = {
     extenders: require("extenders"),
     stats: require("simple-statistics"),
     stream: require("stream-statistics"),
-    pyc: require("pyodide")
+    python: require("pyodide"),
+    
 }
 
 module.exports = ndarray;
