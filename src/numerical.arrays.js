@@ -53,19 +53,36 @@ function NumericalArray() {
 
 // Array Getters
 // a[-1] > a.get(-1), a[0:10] > a.get(0, 10), a[0:] > a.get(0, undefined|null), 
-// a[-1] > a.get("-1"), a[0:10] > a.get("0:10"), a[0:] > a.get("0:"), 
-
 // a[:10] > a.get(undefined|null, 10), a[:] > a.get(undefined|null, undefined|null)
+function get(start, end, step = 1) { }
+
+// Splitting both ways [adding np step argument]
+// a[-1] > a.get("-1"), a[0:10] > a.get("0:10"), a[0:] > a.get("0:"), 
 // a[:10] > a.get(":10"), a[:] > a.get(":")
-function get(start, end) { }
+function getP(range, step = 1) { }
 
 // Array Setters
 // a[-1] > a.set(value, -1), a[0:10] > a.set(value, 0, 10), a[0:] > a.set(value, 0, undefined|null), 
-// a[-1] > a.set(value, "-1"), a[0:10] > a.set(value, "0:10"), a[0:] > a.set(value, "0:"), 
-
 // a[:10] > a.set(value, undefined|null, 10), a[:] > a.set(value, undefined|null, undefined|null)
+function set(value, start, end, step = 1) { }
+
+// Splitting both ways [adding np step argument]
+// a[-1] > a.set(value, "-1"), a[0:10] > a.set(value, "0:10"), a[0:] > a.set(value, "0:"), 
 // a[:10] > a.set(value, ":10"), a[:] > a.set(value, ":")
-function set(value, start, end) { }
+function setP(range, step = 1) { }
+
+// Adding Modifier for multiplier, sum etc etc both ways [adding np step argument]
+// modifier((v) => { return v * 2}, 10, 20, 1)
+// modifier((v) => { return v * 2}, 10, 20)
+// modifier((v) => { return v * 2}, 10)
+function modifier(callback, start, end, step = 1) { }
+
+// Adding Modifier for multiplier, sum etc etc both ways [adding np step argument]
+// modifier((v) => { return v * 2}, "2:20", 1)
+// modifier((v) => { return v * 2}, ":10")
+// modifier((v) => { return v * 2}, "0:")
+function modifierP(callback, range, step = 1) { }
+
 function shape() { }
 function dtype() { }
 function ndim() { }

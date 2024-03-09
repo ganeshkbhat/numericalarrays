@@ -23,4 +23,12 @@
 
 'use strict';
 
+const { loadPyodide } = require("pyodide");
 
+
+async function run() {
+  let pyodide = await loadPyodide({
+    indexURL: "",
+  });
+  return pyodide.runPythonAsync("1+1");
+}
